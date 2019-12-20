@@ -11,7 +11,7 @@ Gem::Specification.new do |s|
   s.files       = ['lib/omniauth-xero-oauth2.rb','lib/xero-oauth2/version.rb','lib/omniauth/strategies/xero_oauth2.rb']
 
   s.add_dependency 'omniauth', '~>1.3'
-  s.add_dependency 'omniauth-oauth2', '~>1.5'
+  s.add_dependency 'omniauth-oauth2', '~>1.6.0'
   s.add_development_dependency 'bundler', '~> 1.16'
   s.add_development_dependency 'rake', '~> 10.0'
 end
